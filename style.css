@@ -13,6 +13,8 @@ body {
   width: 100%;
   height: 100%;
 }
+
+/* header  */
 .header {
   height: 5%;
   display: grid;
@@ -26,7 +28,7 @@ body {
 }
 .headerText {
   font-size: large;
-  font-weight: 900;
+  font-weight: 700;
   padding-left: 1%;
 }
 .window div {
@@ -35,6 +37,7 @@ body {
   align-items: center;
   width: 100%;
   height: 100%;
+  padding: 2%;
 }
 .close:hover {
   background: #e84118;
@@ -47,14 +50,19 @@ body {
   background: #84817a;
 }
 
+/* main  */
 .main {
   height: 95%;
   display: grid;
   grid-template-columns: 75% minmax(25%, 320px);
 }
+
+/* left main  */
 .left {
   background: lightgray;
 }
+
+/* menu line  */
 .menubar {
   height: 7%;
   display: flex;
@@ -84,6 +92,8 @@ body {
 .logo {
   padding: 0.5% 1%;
 }
+
+/* zero result line  */
 .result {
   height: 16%;
   display: flex;
@@ -95,6 +105,7 @@ body {
   padding-top: 3%;
 }
 
+/* M line  */
 .mline {
   height: 7%;
   width: 45%;
@@ -113,6 +124,7 @@ body {
   color: gray;
 }
 
+/* calculator button  */
 .calculator {
   height: 70%;
   display: grid;
@@ -146,6 +158,8 @@ body {
 #mines {
   font-size: x-large;
 }
+
+/* main right */
 .right {
   background: lightgray;
   display: grid;
@@ -154,6 +168,21 @@ body {
 }
 .right div {
   padding: 6% 2%;
-  font-weight: 800;
-  font-size: large;
+  font-weight: 600;
+}
+
+/* memory & history hover  */
+.memory,
+.history {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+}
+.memory:hover {
+  border-bottom: solid orange;
+}
+.history:hover {
+  border-bottom: solid orange;
 }
