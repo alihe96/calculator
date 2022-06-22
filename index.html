@@ -6,13 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>cs_internship</title>
+    <title>Document</title>
 </head>
 
 <body>
     <div class="container">
+
         <div class="header">
-            <div class="headertext">calculator</div>
+            <div class="headerText">Calculator</div>
             <div class="window">
                 <div class="min">&#8213</div>
                 <div class="max">&#9723</div>
@@ -20,68 +21,69 @@
             </div>
         </div>
 
-        <div class="left">
+        <div class="main">
+            <div class="left">
 
-            <div class="menu">
-                <div class="hamburger">
-                    <img src="/images/hamburger.png" alt="hamburger">
+                <div class="menubar">
+                    <div class="burger"> <img class="image-bar"
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAATElEQVRYR+3TsQ0AMAgDQdh/aFIj0ZKn+AyQOCc7Az4Jvx8GUOCkQC0vo316EsADLAP06092QAEF8BniAeyAAgrgM8QD2AEFFPgq8ACF3gYho2IK1QAAAABJRU5ErkJggg"
+                            alt="menu bar"></div>
+                    <h3 class="standard">Standard</h3>
+                    <div class="logo">logo</div>
                 </div>
-                <h3 class="standard">Standard</h3>
-                <div class="logo">logo</div>
+
+                <div class="result">0</div>
+
+                <div class="mline">
+                    <div class="mWhite">MC</div>
+                    <div class="mWhite">MR</div>
+                    <div>M+</div>
+                    <div>M-</div>
+                    <div>MS</div>
+                </div>
+
+                <div class="calculator">
+                    <div class="calOperator">%</div>
+                    <div class="calOperator">CE</div>
+                    <div class="calOperator">C</div>
+                    <div class="calOperator" id="backspace">&#9003;</div>
+                    <div class="calOperator" id="divide">&#xf7</div>
+
+                    <div class="calOperator">&#8730</div>
+                    <div class="calNumber">7</div>
+                    <div class="calNumber">8</div>
+                    <div class="calNumber">9</div>
+                    <div class="calOperator">&#10005</div>
+
+                    <div class="calOperator">&#120013&#178</div>
+                    <div class="calNumber">4</div>
+                    <div class="calNumber">5</div>
+                    <div class="calNumber">6</div>
+                    <div class="calOperator" id="mines">-</div>
+
+                    <div class="calOperator">&#120013&#179</div>
+                    <div class="calNumber">1</div>
+                    <div class="calNumber">2</div>
+                    <div class="calNumber">3</div>
+                    <div class="calOperator">+</div>
+
+                    <div class="calOperator">&#185/&#120013</div>
+                    <div class="calOperator">&#177</div>
+                    <div class="calNumber">0</div>
+                    <div class="calOperator" id="point">.</div>
+                    <div class="calOperator">=</div>
+                </div>
+
             </div>
 
-            <div class="zero">
-                <div>0</div>
+            <div class="right">
+                <div class="history">History</div>
+                <div class="memory">Memory</div>
+                <div class="nohistory">There's no history yet</div>
             </div>
-
-            <div class="mline">
-                <div>MC</div>
-                <div>MR</div>
-                <div>M+</div>
-                <div>M-</div>
-                <div>MS</div>
-            </div>
-
-            <div class="calculator">
-                <div class="calOperator">%</div>
-                <div class="calOperator">CE</div>
-                <div class="calOperator">C</div>
-                <div class="calOperator">&#9003;</div>
-                <div class="calOperator">&#xf7</div>
-
-                <div class="calOperator">&#8730</div>
-                <div class="calNumber">7</div>
-                <div class="calNumber">8</div>
-                <div class="calNumber">9</div>
-                <div class="calOperator">&#10005</div>
-
-                <div class="calOperator">&#120013&#178</div>
-                <div class="calNumber">4</div>
-                <div class="calNumber">5</div>
-                <div class="calNumber">6</div>
-                <div class="calOperator">-</div>
-
-                <div class="calOperator">&#120013&#179</div>
-                <div class="calNumber">1</div>
-                <div class="calNumber">2</div>
-                <div class="calNumber">3</div>
-                <div class="calOperator">+</div>
-
-                <div class="calOperator">&#185/&#120013</div>
-                <div class="calOperator">&#177</div>
-                <div class="calNumber">0</div>
-                <div class="calOperator">.</div>
-                <div class="calOperator">=</div>
-            </div>
-        </div>
-
-
-        <div class="right">
-            <div class="rightText">History</div>
-            <div>Memory</div>
-            <div>There is no history yet</div>
         </div>
     </div>
+
 </body>
 
 </html>
