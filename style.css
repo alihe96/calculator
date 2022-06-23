@@ -162,27 +162,17 @@ body {
 /* main right */
 .right {
   background: lightgray;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 10% 90%;
 }
-.right div {
-  padding: 6% 2%;
-  font-weight: 600;
-}
-
-/* memory & history hover  */
-.memory,
-.history {
+.hanieh {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-  height: 50%;
+  margin-top: 3%;
 }
-.memory:hover {
-  border-bottom: solid orange;
+.memory {
+  margin-left: 7%;
 }
-.history:hover {
-  border-bottom: solid orange;
+.nohistory {
+  margin-top: 15%;
+}
+.history {
+  border-bottom: #e84118 solid 4px;
 }
