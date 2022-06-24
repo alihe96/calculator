@@ -8,6 +8,7 @@ html,
 body {
   width: 100%;
   height: 100%;
+  min-height: 400px;
 }
 .container {
   width: 100%;
@@ -19,7 +20,7 @@ body {
   height: 5%;
   display: grid;
   grid-template-columns: 88% 12%;
-  background: lightgray;
+  background: #e6e6e6;
 }
 .header div {
   display: flex;
@@ -44,10 +45,10 @@ body {
   color: white;
 }
 .max:hover {
-  background: #84817a;
+  background: #cfcfcf;
 }
 .min:hover {
-  background: #84817a;
+  background: #cfcfcf;
 }
 
 /* main  */
@@ -59,7 +60,7 @@ body {
 
 /* left main  */
 .left {
-  background: lightgray;
+  background: #e6e6e6;
 }
 
 /* menu line  */
@@ -75,7 +76,7 @@ body {
   align-items: center;
 }
 .menubar div:hover {
-  background: #84817a;
+  background: #cfcfcf;
 }
 .burger {
   padding: 0.5% 1%;
@@ -118,7 +119,7 @@ body {
   align-items: center;
 }
 .mline div:hover {
-  background: #aaa69d;
+  background: #cfcfcf;
 }
 .mWhite {
   color: gray;
@@ -143,7 +144,7 @@ body {
   background: #84817a;
 }
 .calNumber {
-  background: white;
+  background: #fafafa;
 }
 .calOperator {
   background: #dfe4ea;
@@ -161,7 +162,7 @@ body {
 
 /* main right */
 .right {
-  background: lightgray;
+  background: #e6e6e6;
 }
 .hanieh {
   display: flex;
