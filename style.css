@@ -141,13 +141,13 @@ body {
   font-weight: bold;
 }
 .calculator div:hover {
-  background: #84817a;
+  background: #e6e6e6;
 }
 .calNumber {
   background: #fafafa;
 }
 .calOperator {
-  background: #dfe4ea;
+  background: #f0f0f0;
 }
 #backspace {
   font-size: large;
